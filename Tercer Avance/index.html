@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- estilos -->
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <!-- iconos -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> 
+    <!-- tipo de letra open sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+    <!-- ------------------------- NAV------------------------------------ -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <center><a class="navbar-brand" href="#"><img src="imagenes/logo2.jpg" alt=""></a></center>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="informacion.html">Información</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="Mitos.html">Mitos y realidad</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="datos.html">Datos Estadísticos</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="preguntas.html">Preguntas Frecuentes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="juntos.html">Juntos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+                </li>
+                </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- ------------------------- ENCABEZADO------------------------------------ -->
+    <header class="encabezado" id="inicio">
+        <img src="imagenes/menu.svg" alt="" class="menu">
+        
+        <div class="contenedor head">
+            <h1 class="titulo">Estamos juntos en esto</h1>
+            <p class="subtituloprin">"Con tu ayuda, venceremos al covid 19"</p>
+        </div>
+        
+    </header>
+
+    <main>
+        <!-- ------------------------- MEDIDAS DE PREVENCION------------------------------------ -->
+        <section class="prevencion"  id="medidas">
+            <h2 class="subtitulo">Medidas de Prevención</h2>
+            
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="imagenes/lava.jpg" alt="">
+                    <h3 class="n-expert">LAVA TUS MANOS CON AGUA Y JABÓN</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="imagenes/acude.jpg" alt="">
+                    <h3 class="n-expert">ACUDE AL MÉDICO SOLO EN UNA URGENCIA</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="imagenes/tose.jpg" alt="">
+                    <h3 class="n-expert">TOSE O ESTORNUDA EN LA PARTE INTERNA DE TU CODO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="imagenes/difundir.jpg" alt="">
+                    <h3 class="n-expert">NO DIFUNDAS NOTICIAS FALSAS</h3>
+                </div>
+            </section>
+
+        </section>    
+    <!-- ------------------------- TODO SOBRE EL COVID------------------------------------ -->
+        <section class="info" id="Información">
+            <h2 class="subtitulo">TODO SOBRE EL COVID-19</h2>
+            <div class="contenedor-galeria">
+     
+                <div class="con-imagen">
+                    <a href="informacion.html">
+                        <img onmouseover="aumento1()" onmouseout="normal()" id="1" src="imagenes/mesa1.png" alt="" class="img-galeria">
+                    </a>                
+                </div>
+                
+                <div class="con-imagen">
+                    <a href="mitos.html">
+                    <img onmouseover="aumento2()" onmouseout="normal()" id="2" src="imagenes/mitos1.png" alt="" class="img-galeria"></div></a>
+
+                <div class="con-imagen">
+                    <a href="datos.html">
+                    <img onmouseover="aumento3()" onmouseout="normal()" id="3" src="imagenes/datos1.png" alt="" class="img-galeria"></div></a>
+                
+                <div class="con-imagen">
+                    <a href="preguntas.html">
+                    <img onmouseover="aumento4()" onmouseout="normal()" id="4" src="imagenes/preguntas1.png" alt="" class="img-galeria"></div></a>
+                
+                <div class="con-imagen">
+                    <a href="juntos.html">
+                    <img onmouseover="aumento5()" onmouseout="normal()" id="5" src="imagenes/juntos1.png" alt="" class="img-galeria"></div></a>
+                
+                <div class="con-imagen">
+                    <a href="recomendaciones.html">
+                    <img onmouseover="aumento6()" onmouseout="normal()" id="6" src="imagenes/recomendacion1.png" alt="" class="img-galeria"></div></a>
+            </div>
+        </section>
+
+        <!-- ------------------------- NOVEDADES------------------------------------ -->
+        <section class="contenedor" id="Novedades">
+            <h2 class="subtitulo">Novedades</h2>
+            <div class="contenedor-servicio">
+                <img src="imagenes/foto01.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Covid persistente</h3>
+                        <p>Un estudio sueco con una cohorte de personas que sufrieron COVID-19 moderada muestra que el 26% de ellas presentó por lo menos un síntoma moderado o grave a los dos meses o más, y el 15% durante al menos ocho meses. Para un 10% de las personas, estos síntomas afectaron a su vida laboral, social o personal.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Otro candidato a vacuna</h3>
+                        <p>Una vacuna que consiste en partículas que se asemejan al virus y se producen en plantas dio resultados prometedores de fase 1 y fase 2. La vacuna fue bien tolerada e indujo buenos niveles de anticuerpos neutralizantes (hasta 10 veces mayor a los niveles observados en pacientes convalecientes).</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>El secreto está en la rapidez</h3>
+                        <p>Un análisis de la respuesta humoral (anticuerpos) en pacientes con COVID-19 y diferentes grados de gravedad revela que la mortalidad no depende de los niveles de anticuerpos anti-SARS-CoV-2, sino de la velocidad con la que se producen. Una mortalidad más elevada se correlacionó con una seroconversión más lenta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- ------------------------- SI TE CUIDAS------------------------------------ -->   
+    <section class="cuidate" id="servicio">
+        
+        <div class="conte-cuidate">
+            
+            <div class="lado1">
+                <h2 class="ctitulo">Si te cuidas tú, <br>nos cuidamos todos</h2>
+                <p>Todos podemos hacer algo para mitigar y contener la expansión de las enfermedades. Lo primero siempre es entender qué son, cómo se transmiten y cómo afectan.
+                En este caso, se trata del coronavirus SARS-COV2. Apareció en China en diciembre pasado y provoca una enfermedad llamada COVID-19, que se ha extendido por el mundo y fue declarada pandemia global por la Organización Mundial de la Salud.
+                </p>
+            </div>
+            <div class="lado2">
+                <iframe width="600" height="355" src="https://www.youtube.com/embed/wzdJ4Pa0N28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>     
+        </div>
+    </section>
+
+    <!-- ------------------------- CUANDO ACUDIR------------------------------------ -->        
+        <section class="acudir" id="acudir">
+            
+            <section class="tituloacudir">
+                <h2>¿Cuándo debo acudir a <br>
+                recibir atención médica?</h2>
+                <h3>Una persona debe sospechar de COVID-19 cuando presenta al menos dos de los siguientes síntomas:</h3>
+            </section>
+
+            <section class="gene-acudir">
+                <div class="cont-acudir">
+                    <img src="imagenes/tos1.jpg" alt="">
+                    <h3 class="n-expert">Tos / Estornudos</h3>
+                </div>
+
+                <div class="cont-acudir">
+                    <img src="imagenes/fiebre.jpg" alt="">
+                    <h3 class="n-expert">Fiebre</h3>
+                </div>
+
+                <div class="cont-acudir">
+                    <img src="imagenes/cabeza.jpg" alt="">
+                    <h3 class="n-expert">Dolor de cabeza</h3>
+                </div>
+            </section> 
+
+            <section class="tituloacudir">
+                <h3>Y que se acompaña de alguno de los siguientes:</h3>
+            </section>
+
+            <section class="gene-acudir">
+                <div class="cont-acudir">
+                    <img src="imagenes/3dificultad.jpg" alt="">
+                    <h3 class="n-expert">Dificultad para respirar (casos más graves)</h3>
+                </div>
+
+                <div class="cont-acudir">
+                    <img src="imagenes/3garganta.jpg" alt="">
+                    <h3 class="n-expert">Dolor de garganta</h3>
+                </div>
+
+                <div class="cont-acudir">
+                    <img src="imagenes/3escurrimiento.jpg" alt="">
+                    <h3 class="n-expert">Escurrimiento nasal</h3>
+                </div>
+
+                <div class="cont-acudir">
+                    <img src="imagenes/3ojos.jpg" alt="">
+                    <h3 class="n-expert">Ojos rojos</h3>
+                </div>
+                <div class="cont-acudir">
+                    <img src="imagenes/3musculos.jpg" alt="">
+                    <h3 class="n-expert">Dolores en músculos o articulaciones</h3>
+                </div>
+            </section> 
+
+            <section class="tituloacudir">
+                <h3>Si perteneces a alguno de los grupos de mayor riesgo para complicarse, como las personas de 60 años y más, personas que viven con enfermedades como hipertensión o diabetes, las mujeres embarazadas, menores de cinco años y personas que viven con cáncer o VIH, DEBES ACUDIR A RECIBIR ATENCIÓN MÉDICA.</h3>
+            </section>
+
+        </section>
+        <!-- ------------------------- PRUEBA 1------------------------------------ -->        
+
+    </main> 
+
+
+<!-- -------------------------FOOTER / PIE DE PAGINA ------------------------------------ -->    
+    <footer id="contacto">
+        <div class="footer-content">
+            <div class="contact-us">
+                <h2 class="brand">LA LUCHA CONTRA EL COVID</h2>
+                <p>Mantengamos la distancia..!!</p>
+            </div>
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+    </footer>    
+
+    
+    <!-- javascript -->
+    
+    <script src="js/maximizar.js"></script>
+</body>
+</html>

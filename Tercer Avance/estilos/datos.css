@@ -1,0 +1,110 @@
+.sala{
+background-color: rgba(255, 255, 255);
+}
+.sala h2{
+  margin: 30px;
+  padding: 15px 10px 15px 20px ;
+  background-color: rgb(85, 2, 57); /*color del contenedor*/
+  text-align: center ; /*ubicacion del texto*/
+  color: #efd9fa; /*color de titulo*/
+}
+.lado2 {
+margin: auto;
+
+}
+.lado2 img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 500px;;
+}
+/*datos estadisticos*/
+.estadistico h1{
+  margin: 30px;
+  padding: 15px 10px 15px 20px ;
+  background-color: rgb(85, 2, 57); /*color del contenedor*/
+  text-align: center ; /*ubicacion del texto*/
+  color: #efd9fa; /*color de titulo*/
+}
+.lado img{
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;;
+}
+/*------medicos con covid-------*/
+.medico h1{
+  margin: 30px;
+  padding: 15px 10px 15px 20px ;
+  background-color: rgb(85, 2, 57); /*color del contenedor*/
+  text-align: center ; /*ubicacion del texto*/
+  color: #efd9fa; /*color de titul*/
+}
+.lado00 img {
+  display: block;
+  margin: 5%;
+  max-width: 100%;
+  width: 600px;;
+}
+.lado00 p{
+  width: 95%;
+  padding: 40px 10px 40px 30px;
+  line-height: 33px;
+  text-align: justify;
+  margin-left: 3%;
+  color: rgb(85, 2, 57);
+  font-weight: 350;
+  font-size: 22px;
+}
+/*----FOOTER-----------------------------*/
+
+footer{
+  padding: 0px 80px 0px 80px;
+  background-image: linear-gradient(to top, rgba(17, 1, 13, 0.8) 0%, rgba(87, 3, 37, 1) 100%);
+  
+  padding-bottom: 1px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.contact-us{
+  width: 40%;
+  color: white;
+}
+
+.brand{
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.brand p{
+  font-weight: 500;
+}
+.social-media{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icon{
+  display: inline-block;
+  margin-left: 20px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+}
+
+.social-media-icon i{
+  font-size: 30px;
+  line-height: 60px;
+}
